@@ -1,0 +1,73 @@
+
+<div>
+<!-- <nav class="navbar navbar-default">
+  
+  <div class="container-fluid">
+      <a class="navbar-brand">{{pageTitle}}</a>
+      <ul class="nav navbar-nav">
+        <li>
+          <a [routerLink]="['/welcome']">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="['/products']">Product List</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+
+<header> -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Carousel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+<div class="container-fluid">
+  <router-outlet></router-outlet>
+</div>
+
+</div>
+
+<!-- <carousel [interval]="myInterval" [noWrap]="noWrapSlides" [noPause]="noPauseSlides" [(activeSlide)]="activeSlideIndex">
+  <slide *ngFor="let slide of slides; let index=index">
+    <img [src]="slide" style="width: 100%;max-height:400px;">
+
+    <div class="carousel-caption text-left">
+        <h1>Example headline.</h1>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+    </div>
+  </slide>
+</carousel>
+<alert type="success">
+  <strong>Well done!</strong> You successfully read this important alert message.
+</alert>
+<alert type="info">
+  <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+</alert>
+<alert type="warning">
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</alert>
+<alert type="danger">
+  <strong>Oh snap!</strong> Change a few things up and try submitting again.
+</alert> -->
+
