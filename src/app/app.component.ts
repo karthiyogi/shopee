@@ -12,9 +12,9 @@ export class AppComponent {
   title = 'app';
   public myInterval: number = 3000;
   public slides: any[] = [
-    `assets/images/shoppingbegins.jpg`,
-    `assets/images/womenswear.jpg`,
-    `assets/images/menswear.jpg`
+    `assets/images/background1.png`,
+    `assets/images/background2.jpg`,
+    `assets/images/background3.jpg`
 
   ];
   public activeSlideIndex: number = 0;
