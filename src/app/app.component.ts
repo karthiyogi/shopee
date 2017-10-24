@@ -21,6 +21,18 @@ export class AppComponent {
   public noWrapSlides:boolean = false;
   public noPauseSlides:boolean = false;
   
+   public items: string[] = ['The first choice!',
+    'And another choice for you.', 'but wait! A third!'];
+ 
+  public onHidden(): void {
+    console.log('Dropdown is hidden');
+  }
+  public onShown(): void {
+    console.log('Dropdown is shown');
+  }
+  public isOpenChange(): void {
+    console.log('Dropdown state is changed');
+  }
   // public constructor() {
   //   // for (let i = 0; i < 4; i++) {
   //   //   this.addSlide();
