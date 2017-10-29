@@ -1,5 +1,5 @@
 figure{
-    width: 100%;
+    /* width: 100%; */
     height: 300px;
     overflow: hidden;
     position: relative;
@@ -51,7 +51,7 @@ figure{
   }
   
   figure:hover figcaption{
-   background: rgba(255,255,255,0.3);
+   background: rgba(0,0,0,0.5);
   }
   
   figcaption:hover div{
@@ -103,4 +103,24 @@ figure{
     font-weight: 700;
     src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
   }
-  
+  .line-center{
+    margin:0;padding:0 10px;
+    background:#fff;
+    display:inline-block;
+}
+h2{
+    
+    text-align:center;
+    position:relative;
+    z-index:2;
+    
+}
+h2:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 3px black;
+    z-index:-1;
+}

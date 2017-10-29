@@ -1,0 +1,132 @@
+.full-content:hover .info {
+    
+        display: block;
+        /* position: absolute; */
+    }
+    
+    .info {
+    
+        display: none;
+        /* position: absolute; */
+    }
+
+    .info1 {
+        margin: 10px 0px;
+        bottom: -212px;
+        z-index: 99;
+        width: 259px;
+        background-color: white;
+        margin-left: -11px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 0px 10px 20px;
+    }
+    .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+
+    .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+        border: 2px solid #B82601;
+        font-size: 13px;
+        border-radius: 0 50px 50px 0;
+        padding: 3px;
+        padding-right: 10px;
+        background-color: #B82601;
+        color: white;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    
+    .topleft1 {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+        border: 2px solid lightseagreen;
+        font-size: 13px;
+        border-radius: 0 50px 50px 0;
+        padding: 3px;
+        padding-right: 10px;
+        background-color: lightseagreen;
+        color: white;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    .button_quickview {
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+        margin-top: 15px;
+        padding: 10px;
+    }
+.offer-round {
+    border: 1px solid gray;
+    border-radius: 10%;
+    padding: 3px;
+}
+
+.modal_top .modal-content {
+    top:125px;
+}
+.margin5 {
+    margin :2px;
+}
+.padding5 {
+    padding: 5px;
+}
+
+.button_cart {
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+/* 
+.full-content .info {
+    position: absolute;
+    left: 66px;; bottom: -91px;
+
+    width: 220px;
+    display: block;
+    background: #fff;
+    font-size: 1.2em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+   
+}
+
+.full-content:hover .info {display: block;}
+
+.full-content img {
+    position: relative;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; 
+   }
+   .full-content:hover img{
+    z-index: 999;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   }
+   
+   .full-content {
+    position: relative;
+   }
+   .full-content:hover {z-index: 99;} */
+   

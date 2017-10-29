@@ -1,33 +1,82 @@
-<carousel [interval]="myInterval" [noWrap]="noWrapSlides" [noPause]="noPauseSlides" [(activeSlide)]="activeSlideIndex">
+<carousel [interval]="myInterval"  [noWrap]="noWrapSlides" [noPause]="noPauseSlides" [(activeSlide)]="activeSlideIndex">
   <slide *ngFor="let slide of slides; let index=index">
-    <img [src]="slide" style="width: 100%;max-height:400px;min-height:400px;margin-top:10px;">
+    <img [src]="slide" style="width: 100%;max-height:400px;min-height:400px;margin-top: 55px;">
 
-    <div class="carousel-caption text-left">
+    <!-- <div class="carousel-caption text-left">
         <h1>Example headline.</h1>
         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
         <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-    </div>
+    </div> -->
   </slide>
 </carousel>
+
+    <div class="row justify-content-md-center">
+        <div class="col-sm-12 col-md-10">
+            <h2 style="margin-top:40px;">
+          <span  class="line-center"># MENS WEAR</span>
+        </h2>
+        </div>
+    </div>
+
 <div class="row">
-  <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4" [routerLink]="['/products']">
     <figure>
       <img src="assets/images/mens_casual.jpg" alt="Thumb" height="300" width="100%" />
       <!-- <figcaption>Thumbnail Caption</figcation> -->
         <figcaption><div>MEN's CASUAL</div></figcaption>
     </figure>
   </div>
-  <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4" [routerLink]="['/products']">
     <figure>
       <img src="assets/images/mens_jeans.jpg" alt="Thumb" height="300" width="100%"/>
       <!-- <figcaption>Thumbnail Caption</figcation> -->
         <figcaption><div>MEN's JEAN</div></figcaption>
     </figure>  </div>
-  <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4" [routerLink]="['/products']">
     <figure>
       <img src="assets/images/mens_formal.jpg" alt="Thumb"  height="300" width="100%"/>
       <!-- <figcaption>Thumbnail Caption</figcation> -->
         <figcaption><div>MEN's FORMAL</div></figcaption>
     </figure>  </div>
+</div>
+<div class="row justify-content-md-center">
+  <div class="col-sm-12 col-md-10">
+      <h2 style="margin-top:40px;">
+    <span  class="line-center"># BRANDS AVAILABLE</span>
+  </h2>
+  </div>
+</div>
+<div class="row justify-content-md-center" style="margin-bottom:20px;margin-top:20px;">
+ 
+  <div class="col-sm-8 col-md-8">
+<div class="row">
+  <div class="col">
+    <img src="assets/images/brands/Nike.jpg" style="height: 130px;width: 200px;"/>
+  </div>
+  <div class="col">
+      <img src="assets/images/brands/peter-england.png" style="height: 130px;width: 200px;"/>
+  </div>
+  <div class="col">
+      <img src="assets/images/brands/arrow.gif" style="height: 130px;width: 200px;"/>
+  </div>
+  <div class="col">
+      <img src="assets/images/brands/levi.jpg" style="height: 130px;width: 200px;"/>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <img src="assets/images/brands/flyingmachine.jpg" style="height: 130px;width: 200px;"/>
+    </div>
+    <div class="col">
+        <img src="assets/images/brands/us-polo.jpg" style="height: 130px;width: 200px;"/>
+    </div>
+    <div class="col">
+        <img src="assets/images/brands/wrangler.jpg" style="height: 130px;width: 200px;"/>
+    </div>
+    <div class="col">
+        <img src="assets/images/brands/puma.jpg" style="height: 130px;width: 200px;"/>
+      </div>
+  </div>
+</div>
 </div>
 

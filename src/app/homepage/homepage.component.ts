@@ -10,7 +10,7 @@ import { CarouselConfig } from 'ngx-bootstrap';
 export class HomepageComponent implements OnInit {
   public myInterval: number = 3000;
   public slides: any[] = [
-    `assets/images/backround1.png`,
+    `assets/images/background1.jpg`,
     `assets/images/backround2.jpg`,
     `assets/images/backround3.jpg`
 
